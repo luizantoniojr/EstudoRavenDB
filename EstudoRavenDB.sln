@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoRavenDB.API", "EstudoRavenDB.API\EstudoRavenDB.API.csproj", "{7DDD6D72-8280-42A5-BDFA-4519FEDBBBA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoRavenDB.Domain", "EstudoRavenDB.Domain\EstudoRavenDB.Domain.csproj", "{2CFB9816-7737-41A1-B071-B0F8C8331348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoRavenDB.Infra.Data.RaivenDB", "EstudoRavenDB.Infra.Data.RaivenDB\EstudoRavenDB.Infra.Data.RaivenDB.csproj", "{209791EC-40B9-42DE-B20A-DA497CA7412C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoRavenDB.Infra.Data.SQLServer", "EstudoRavenDB.Infra.Data.SQLServer\EstudoRavenDB.Infra.Data.SQLServer.csproj", "{5EC6615C-45A3-41E7-8ABF-231577854BA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoRavenDB.Infra.Data.IoC", "EstudoRavenDB.Infra.Data.IoC\EstudoRavenDB.Infra.Data.IoC.csproj", "{2001D403-AD76-4229-A519-7428761464D4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DDD6D72-8280-42A5-BDFA-4519FEDBBBA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDD6D72-8280-42A5-BDFA-4519FEDBBBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDD6D72-8280-42A5-BDFA-4519FEDBBBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDD6D72-8280-42A5-BDFA-4519FEDBBBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CFB9816-7737-41A1-B071-B0F8C8331348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CFB9816-7737-41A1-B071-B0F8C8331348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CFB9816-7737-41A1-B071-B0F8C8331348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CFB9816-7737-41A1-B071-B0F8C8331348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209791EC-40B9-42DE-B20A-DA497CA7412C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209791EC-40B9-42DE-B20A-DA497CA7412C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209791EC-40B9-42DE-B20A-DA497CA7412C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209791EC-40B9-42DE-B20A-DA497CA7412C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC6615C-45A3-41E7-8ABF-231577854BA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC6615C-45A3-41E7-8ABF-231577854BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC6615C-45A3-41E7-8ABF-231577854BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC6615C-45A3-41E7-8ABF-231577854BA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2001D403-AD76-4229-A519-7428761464D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2001D403-AD76-4229-A519-7428761464D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2001D403-AD76-4229-A519-7428761464D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2001D403-AD76-4229-A519-7428761464D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
